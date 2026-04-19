@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto+Slab:wght@100..900&display=swap');
+
+
+* {
+  font-family: "Roboto Slab", serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #181717;
+}
+
+section{
+  padding: 28px 6%;
+}
+
+.TesteGratis_btn{
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #db0000;
+  padding: 5px 15px;
+  font-weight: 600;
+  box-shadow: 0px 0px 5px rgba(219, 0, 0, 0.5);
+  border-radius: 15px;
+  font-size: 20px;
+  border-color: #db0000;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.TesteGratis_btn:hover{
+  background-color: #ff2121;
+}
+
+.cta-social-btn{
+  display: flex;
+  align-items: center;
+  font-size: 1.8rem;
+  gap: 30px;
+  margin-top: 1rem;
+}
+
+.cta-social-btn a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #242424;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(89, 88, 88, 0.5);
+  width: 40px;
+  height: 40px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.cta-social-btn a:hover{
+  box-shadow: 0px 0px 17px rgba(89, 88, 88, 0.5);
+  font-size: 2rem;
+  transition: 0.3s ease;
+}
+

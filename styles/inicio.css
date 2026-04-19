@@ -1,0 +1,38 @@
+#inicio {
+    display: flex;
+    min-height: calc(100vh - 87.2px);
+}
+
+#cta{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 28px;
+    color: #fff;
+    margin-left: 5%;
+}
+
+.fa-facebook { color: #1877F2; }
+.fa-instagram { color: #E4405F; }
+.fa-whatsapp { color: #25D366; }
+
+#cta .Everest-I{
+    color: #db0000;
+}
+
+#cta .title{
+    font-size: 2.5 rem;
+    font-weight: 600;
+}
+
+#cta .descricao{
+    font-size: 1rem;
+}
+
+#banner img{
+  width: 100%;
+  height: auto;
+  max-width: 300px;
+}
+

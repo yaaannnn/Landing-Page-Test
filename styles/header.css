@@ -1,0 +1,104 @@
+header{
+    width: 100%;
+    padding: 28px 6%;
+}
+
+
+#navbar {
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+#nav_logo{
+    font-size: 1.8rem;
+    color: #db0000;
+    display: flex;
+}
+
+#nav_logo span{
+    font-family: "Oswald", sans-serif;
+}
+
+#nav_list{
+    display: flex;
+    list-style: none;
+    gap: 48px;
+}
+
+.nav-itens a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav-itens.active a{
+    border-bottom: 2px solid #db0000;
+}
+
+.Everest{
+    color: #db0000;
+    margin-left: 10%;
+}
+
+.Gym{
+    color: #fff;
+}
+
+#mobile_menu{
+    display: none;
+}
+
+#mobile-btn{
+    display: none;
+}
+
+#mobile-btn:hover{
+    color: #db0000;
+}
+
+#mobile_menu.active{
+    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+
+.mobile-nav-itens a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    #nav_list, #navbar .TesteGratis_btn{
+        display: none;
+    }
+    #mobile-btn{
+        display: block;
+        border: none;
+        background-color: transparent;
+        color: #fff;
+        font-size: 24px;
+        cursor: pointer;
+        transition: color 0.3s ease;
+    }
+
+    #mobile_nav_list{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 24px;
+    text-align: center;
+    margin: 20px 0px
+    }
+}
+
+@media screen and (min-width: 769px) {
+    #mobile_menu.active{
+        display: none;
+    }
+}
