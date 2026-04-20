@@ -9,9 +9,8 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    gap: 28px;
+    gap: 35px;
     color: #fff;
-    margin-left: 5%;
 }
 
 .fa-facebook { color: #1877F2; }
@@ -42,6 +41,8 @@
 
 @media screen and (max-width: 870px) {
     #inicio {
+        display: flex;
+        flex-direction: column;
         align-items: center;
         text-align: center;
     }
@@ -50,15 +51,11 @@
         flex-direction: column;
         align-items: center;
         width: 100%;
-        margin: 0;
         gap: 16px;
-        margin: 2%;
+        padding: 0px 10px
     }
-    #banner img {
-        position: static;
-        min-height: 100%;
-        max-width: 90%;
-        margin: 15% auto;
+    #banner, #banner img{
+        display: none;
     }
 }
 

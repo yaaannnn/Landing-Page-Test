@@ -1,0 +1,29 @@
+#sobre {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+#banner-sobre img {
+    width: 100%;
+    max-width: 340px;
+
+}
+
+#txt-sobre {
+    display: flex;
+    flex-direction: column;
+    width: 53%;
+    gap: 35px;
+    color: #fff;
+}
+
+#txt-sobre .title {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+#txt-sobre .descricao {
+    font-size: 1rem;
+}
