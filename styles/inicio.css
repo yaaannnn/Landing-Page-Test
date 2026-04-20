@@ -1,9 +1,10 @@
 #inicio {
     display: flex;
     min-height: calc(100vh - 87.2px);
+    position: relative;
 }
 
-#cta{
+#cta {
     width: 35%;
     display: flex;
     flex-direction: column;
@@ -17,22 +18,57 @@
 .fa-instagram { color: #E4405F; }
 .fa-whatsapp { color: #25D366; }
 
-#cta .Everest-I{
+#cta .Everest-I {
     color: #db0000;
 }
 
-#cta .title{
+#cta .title {
     font-size: 2.5 rem;
     font-weight: 600;
 }
 
-#cta .descricao{
+#cta .descricao {
     font-size: 1rem;
 }
 
-#banner img{
-  width: 100%;
-  height: auto;
-  max-width: 300px;
+#banner img {
+    width: 100%;
+    height: auto;
+    max-width: 340px;
+    position: absolute;
+    left: 57%;
+    bottom: 0;
 }
 
+@media screen and (max-width: 870px) {
+    #inicio {
+        align-items: center;
+        text-align: center;
+    }
+    #cta {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin: 0;
+        gap: 16px;
+        margin: 2%;
+    }
+    #banner img {
+        position: static;
+        min-height: 100%;
+        max-width: 90%;
+        margin: 15% auto;
+    }
+}
+
+shape {
+    background-color: #4f4f4f;
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    border-radius: 40% 30% 0% 20%;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
