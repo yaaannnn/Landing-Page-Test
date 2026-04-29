@@ -1,4 +1,8 @@
 #inicio {
+    background-image: url('../img/BG-Academia.jpg');
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../img/BG-Academia.jpg');
     display: flex;
     min-height: calc(100vh - 87.2px);
     position: relative;
@@ -35,8 +39,8 @@
     height: auto;
     max-width: 340px;
     position: absolute;
-    left: 57%;
-    bottom: 0;
+    left: 55%;
+    bottom: 1px;
 }
 
 @media screen and (max-width: 870px) {
